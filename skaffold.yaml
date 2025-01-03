@@ -1,0 +1,15 @@
+apiVersion: skaffold/v2beta29
+kind: Config
+metadata:
+  name: portfolio-deployment
+build:
+  artifacts:
+  - image: registry.helixx.cloud/portfolio-deployment
+    context: .  # The context is the root directory where go.mod and go.sum are located
+    docker:
+      dockerfile: Dockerfile  # Reference Dockerfile in the root directory
+deploy:
+  kubectl:
+    manifests:
+    - ./k8s/deployment.yaml
+    - ./k8s/service.yaml

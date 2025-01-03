@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Title}}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/navigation.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/experience">Experience</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="user-profile">
+            <!-- User Picture -->
+            <div class="user-picture">
+                <img src="/static/images/profile.jpg" alt="User Picture">
+            </div>
+            <!-- User Introduction -->
+            <div class="user-introduction">
+                <div class="markdown-content">
+                    {{.MarkdownHTML}}
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="https://github.com/sohaib1khan" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/sohaib-k-184344a3/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://read.helixx.cloud/" target="_blank" rel="noopener">My Wiki</a></li>
+            <li><a href="mailto:contact@sohaib0khan.com">Email</a></li>
+        </ul>
+        <div class="footer-icons">
+            <a href="https://github.com/sohaib1khan" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> <!-- GitHub Icon -->
+            </a>
+            <a href="https://www.linkedin.com/in/sohaib-k-184344a3/" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> <!-- LinkedIn Icon -->
+            </a>
+            <a href="https://read.helixx.cloud/" target="_blank" rel="noopener">
+                <i class="fas fa-book"></i> <!-- Wiki Icon -->
+            </a>
+            <a href="mailto:contact@sohaib0khan.com">
+                <i class="fas fa-envelope"></i> <!-- Email Icon -->
+            </a>
+        </div>
+        <p class="footer-text">&copy; 2025 Sohaib Khan. All Rights Reserved.</p>
+    </footer>    
+    <!-- JavaScript for animations -->
+    <script src="/static/js/stars.js"></script>
+</body>
+</html>

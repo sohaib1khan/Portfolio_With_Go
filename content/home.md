@@ -1,0 +1,5 @@
+# Sohaib Khan
+
+I am a driven technical support engineer with seven years of experience and a passion for DevOps and cloud infrastructure. I am proficient in Linux administration and network troubleshooting, and have a proven track record of providing outstanding customer support and resolving technical issues efficiently. In addition, I am adept at collaborating with vendors and third-party companies to resolve complex problems.
+
+As a lifelong learner, I am always seeking new knowledge and love to share my expertise with others in the community. I have a particular affinity for building infrastructure from the ground up and maintaining it with best practices. For instance, I currently host my own infrastructure from home using Proxmox Virtual Environment, an open-source hyper-converged software. With Proxmox, I am able to host many of my favorite applications using containers.
