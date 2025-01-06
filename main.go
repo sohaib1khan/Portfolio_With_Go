@@ -1,10 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"path/filepath"
 
 	"github.com/gomarkdown/markdown"
@@ -43,8 +45,8 @@ func renderTemplate(w http.ResponseWriter, templateName string, data map[string]
 // Handlers for each page
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "home", map[string]interface{}{
-		"Title":        "Home",
-		"MarkdownFile": "home.md",
+		"Title":           "Home",
+		"MarkdownFile":    "home.md",
 		"UserProfileImage": "/static/images/profile.jpg",
 	})
 }
@@ -78,6 +80,28 @@ func contactHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	// Define port and environment variables
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8989"
+	}
+
+	env := os.Getenv("ENVIRONMENT")
+	if env == "" {
+		env = "development"
+	}
+
+	// Banner message
+	banner := `
+=============================================================
+Portfolio App
+=============================================================
+Environment: %s
+Server running on: http://localhost:%s
+=============================================================
+`
+	fmt.Printf(banner, env, port)
+
 	// Define routes and handlers
 	http.HandleFunc("/", homeHandler)
 	http.HandleFunc("/projects", projectsHandler)
@@ -89,6 +113,8 @@ func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static/"))))
 
 	// Start the server
-	log.Println("Server running on http://localhost:8989")
-	log.Fatal(http.ListenAndServe(":8989", nil))
+	log.Printf("Server starting on port %s", port)
+	if err := http.ListenAndServe("0.0.0.0:"+port, nil); err != nil {
+		log.Fatalf("Failed to start server: %v", err)
+	}
 }

@@ -1,5 +1,34 @@
-# Sohaib Khan
+# 🌟 Sohaib Khan
 
-I am a driven technical support engineer with seven years of experience and a passion for DevOps and cloud infrastructure. I am proficient in Linux administration and network troubleshooting, and have a proven track record of providing outstanding customer support and resolving technical issues efficiently. In addition, I am adept at collaborating with vendors and third-party companies to resolve complex problems.
+---
 
-As a lifelong learner, I am always seeking new knowledge and love to share my expertise with others in the community. I have a particular affinity for building infrastructure from the ground up and maintaining it with best practices. For instance, I currently host my own infrastructure from home using Proxmox Virtual Environment, an open-source hyper-converged software. With Proxmox, I am able to host many of my favorite applications using containers.
+## 🖥️ **About Me**
+
+I am a **driven technical support engineer** with **seven years of experience** and a passion for **DevOps** and **cloud infrastructure**.  
+With proficiency in **Linux administration** and **network troubleshooting**, I have a proven track record of:
+
+ Providing **outstanding support** 🤝  
+ Resolving **technical issues efficiently** 🚀  
+ Collaborating with **vendors and third-party companies** for solutions 🔧  
+
+---
+
+## 🛠️ **My Infrastructure Journey**
+
+As a **lifelong learner**, I love exploring **new knowledge** and sharing expertise with others in the community.  
+I am particularly passionate about **building infrastructure from the ground up** and maintaining it with **best practices**.  
+
+### Featured Project:
+  Hosting my own infrastructure using **Proxmox Virtual Environment**, an open-source hyper-converged software.  
+   **Containers** 🛠️  
+   Self-hosted **applications** like Nextcloud and Bitwarden 💻  
+
+---
+
+### 💡 **A Quote to Live By**
+
+> _"Great infrastructure isn’t built—it evolves with creativity, collaboration, and constant learning."_  
+
+---
+
+Thank you for visiting my space! Stay tuned for exciting updates. 🌌

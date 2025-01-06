@@ -1,6 +1,6 @@
-# Employment History:
+# 📂 Employment History
 
-###### APPLICATION SUPPORT ENGINEER (RPA)
+## APPLICATION SUPPORT ENGINEER (RPA)
 JPMorganChase Co - Wilmington, DE (Hybrid)
 04/2024 - Present
 
@@ -14,7 +14,7 @@ JPMorganChase Co - Wilmington, DE (Hybrid)
 
 
 
-###### MSP Engineer
+## MSP Engineer
 VineBrook Technology - Andover MA (On-Site)
 01/2024 - 04/2024
 
@@ -27,7 +27,7 @@ VineBrook Technology - Andover MA (On-Site)
 - Collaborated with client IT personnel to generate daily reports.
 - Proactively monitored communication channels on Slack and Microsoft Teams.
 
-###### DevOps Engineer
+## DevOps Engineer
 Motorola Zoom (Now Minim) – Manchester, NH
 01/2022 – 03/2023
 
@@ -42,7 +42,7 @@ Motorola Zoom (Now Minim) – Manchester, NH
 - Developed optimize Docker images for web application using multi-stage builds, reducing image size
 - Managed deployment of micro-services architecture on Kubernetes cluster using YAML manifests and kubectl commands. Achieved 99.9%  uptime for the application by implementing rolling updates and monitoring resources utilization closely.
 
-###### Network Support Specialist
+## Network Support Specialist
 Motorola Zoom (Now Minim) – Manchester, NH
 06/2020 – 01/2022
 
@@ -51,7 +51,7 @@ Motorola Zoom (Now Minim) – Manchester, NH
    - Troubleshoot Motorola products, PCs, tablets, smart devices, printers, and IP cameras.
    - Identified issues and implemented troubleshooting techniques to alleviate downtime and system failure.
 
-###### Technical Support Specialist II
+## Technical Support Specialist II
 GlobalTel (GTL) – Dallas, TX
 07/2018 – 06/2020
 
@@ -61,7 +61,7 @@ GlobalTel (GTL) – Dallas, TX
    - Explained technical information in clear terms to non-technical individuals to promote better understanding.
    - Collaborated with supervisors to escalate and address customer inquiries or technical issues.
    
-###### Technical Support Specialist I
+## Technical Support Specialist I
 GlobalTel (GTL) – Dallas, TX
 07/2017 – 07/2018
 
@@ -69,7 +69,7 @@ GlobalTel (GTL) – Dallas, TX
    - Setup modem/router with field technicians and escalated issues to the proper team.
    - Provided remote support to Linux-based kiosks.
 
-###### Retail Sales Lead
+## Retail Sales Lead
 T-Mobile – North Richland Hills, TX
 07/2014 – 07/2017
 
@@ -79,7 +79,7 @@ T-Mobile – North Richland Hills, TX
    - Product Launch & Merchandising: Played a key role in the successful launch of new products, setting up promotional displays and educating customers on features and benefits.
    - Coached sales associates in product specifications, sales incentives, and selling techniques, significantly increasing customer satisfaction ratings.
 
-###### Laptop Technician (Contractor)
+## Laptop Technician (Contractor)
 Client: Hewlett Packard (Via SMS Infocomm) – Grapevine, TX
 05/2014 – 07/2014
 
