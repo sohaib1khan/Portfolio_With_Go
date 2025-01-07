@@ -67,11 +67,11 @@ func projectsHandler(w http.ResponseWriter, r *http.Request) {
 	})
 }
 
-// Handler for the Skills page
-func skillsHandler(w http.ResponseWriter, r *http.Request) {
-	renderTemplate(w, "skills", map[string]interface{}{
-		"Title":        "Skills",        // Title of the page
-		"MarkdownFile": "skills.md",     // Markdown file to render
+// Handler for the TechStack page
+func TechStackHandler(w http.ResponseWriter, r *http.Request) {
+	renderTemplate(w, "TechStack", map[string]interface{}{
+		"Title":        "TechStack",        // Title of the page
+		"MarkdownFile": "TechStack.md",     // Markdown file to render
 	})
 }
 
@@ -119,7 +119,7 @@ Server running on: http://localhost:%s
 	// Define routes and link them to handlers
 	http.HandleFunc("/", homeHandler)                // Home page
 	http.HandleFunc("/projects", projectsHandler)    // Projects page
-	http.HandleFunc("/skills", skillsHandler)        // Skills page
+	http.HandleFunc("/TechStack", TechStackHandler)        // TechStack page
 	http.HandleFunc("/experience", experienceHandler)// Experience page
 	http.HandleFunc("/contact", contactHandler)      // Contact page
 

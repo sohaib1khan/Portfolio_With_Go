@@ -1,4 +1,4 @@
-# 🎯 Skills Overview
+# 🎯 TechStack Overview
 
 ---
 
@@ -112,7 +112,7 @@
 > _"Mastering the penguin-powered OS."_  
 
 - 6+ years of expertise across distributions like **Debian**, **Ubuntu**, **CentOS**, and more.  
-- Skills include server setups, networking, package management, and security optimization.  
+- TechStack include server setups, networking, package management, and security optimization.  
 
 ---
 

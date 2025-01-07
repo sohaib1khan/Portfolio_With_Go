@@ -12,7 +12,7 @@ This is a personal portfolio web application built using Go (Golang). It uses a 
 │   ├── experience.md
 │   ├── home.md
 │   ├── projects.md
-│   └── skills.md
+│   └── TechStack.md
 ├── docker-compose.yaml    # Docker Compose configuration
 ├── Dockerfile             # Dockerfile for building the Go app container
 ├── go.mod                 # Go module dependencies
@@ -38,7 +38,7 @@ This is a personal portfolio web application built using Go (Golang). It uses a 
     ├── experience.html
     ├── home.html
     ├── projects.html
-    └── skills.html
+    └── TechStack.html
 ```
 
 ---
