@@ -56,7 +56,7 @@ This is a personal portfolio web application built using Go (Golang). It uses a 
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/sohaib1khan/Portfolio_With_Go
 cd Portfolio_With_Go
 ```
 
